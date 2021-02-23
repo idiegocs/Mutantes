@@ -92,7 +92,7 @@ https://mutantes-dics.herokuapp.com/stats
 
 Se puede ejecutar directamente el FAT , jar de Spring(tomcat Embebido)
 
-Descargar (<a href="doc/Desplegable.zip" download>Desplegable.zip</a>)
+Descargar (<a href="https://drive.google.com/file/d/1JEgFAsk4wcRtj7ZfCMBakVupKfRo3uEH/view?usp=sharing"  target="_blank">Desplegable.zip</a>)
 
 
 Descomprimir y Ejecutar el siguiente comando (estando en la ruta donde esta el jar):
