@@ -27,8 +27,8 @@ public class SwaggerConfig {
 		        		          .build();                                           
 		    }
 		  
-		  private ApiInfo metaDato() {
-			ApiInfo apiInfo = new ApiInfo(
+		  public ApiInfo metaDato() {
+			return new ApiInfo(
 					"API Verificacion Mutantes",
 					"Spring Boot API Mutantes", 
 					"1.0", 
@@ -38,7 +38,7 @@ public class SwaggerConfig {
 					"https://dics.com",
 					Collections.emptyList()
 			);
-			return apiInfo;
+			
 		}
 
 }

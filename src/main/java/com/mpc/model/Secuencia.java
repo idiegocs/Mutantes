@@ -2,7 +2,7 @@ package com.mpc.model;
 
 import java.util.List;
 
-import io.swagger.annotations.ApiModel;
+
 import io.swagger.annotations.ApiModelProperty;
 
 public class Secuencia {

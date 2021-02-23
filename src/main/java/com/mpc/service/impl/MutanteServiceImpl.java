@@ -1,9 +1,11 @@
 package com.mpc.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.mpc.controller.MutanteController;
+
 import com.mpc.entity.ADN;
 import com.mpc.model.Estadistica;
 import com.mpc.model.Persona;
@@ -74,6 +76,12 @@ public class MutanteServiceImpl implements MutanteService {
 		estadistica.setRatio(ratio);
 		
 		return  estadistica;
+	}
+	
+	
+	public List<ADN> conseguirADN()
+	{
+		return mutantRepo.findAll();
 	}
 
 }
